@@ -1365,8 +1365,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/chris/git/RTOS/build/CMakeFiles/CMakeScratch/TryCompile-0Nu1Z6"
-      binary: "/Users/chris/git/RTOS/build/CMakeFiles/CMakeScratch/TryCompile-0Nu1Z6"
+      source: "/Users/chris/git/RTOS/build/CMakeFiles/CMakeScratch/TryCompile-0Nh7jZ"
+      binary: "/Users/chris/git/RTOS/build/CMakeFiles/CMakeScratch/TryCompile-0Nh7jZ"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mcpu=cortex-m4 -mthumb -ffreestanding -nostdlib"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1375,10 +1375,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/chris/git/RTOS/build/CMakeFiles/CMakeScratch/TryCompile-0Nu1Z6'
+        Change Dir: '/Users/chris/git/RTOS/build/CMakeFiles/CMakeScratch/TryCompile-0Nh7jZ'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_9244f
-        [1/2] /opt/homebrew/bin/arm-none-eabi-gcc   -mcpu=cortex-m4 -mthumb -ffreestanding -nostdlib    -v -o CMakeFiles/cmTC_9244f.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_7cf91
+        [1/2] /opt/homebrew/bin/arm-none-eabi-gcc   -mcpu=cortex-m4 -mthumb -ffreestanding -nostdlib    -v -o CMakeFiles/cmTC_7cf91.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/opt/homebrew/bin/arm-none-eabi-gcc
         Target: arm-none-eabi
@@ -1386,8 +1386,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_9244f.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_9244f.dir/'
-         /opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/cc1 -quiet -v -imultilib thumb/v7e-m/nofp -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9244f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -mlibarch=armv7e-m -march=armv7e-m -version -ffreestanding -o /var/folders/q5/_d6244qx4bg15n60dk32kgd40000gn/T//ccDMKUDW.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_7cf91.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_7cf91.dir/'
+         /opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/cc1 -quiet -v -imultilib thumb/v7e-m/nofp -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7cf91.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -mlibarch=armv7e-m -march=armv7e-m -version -ffreestanding -o /var/folders/q5/_d6244qx4bg15n60dk32kgd40000gn/T//cc3f4dts.s
         GNU C23 (GCC) version 16.1.0 (arm-none-eabi)
         	compiled by GNU C version Apple LLVM 21.0.0 (clang-2100.0.123.102), GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.27-GMP
         
@@ -1400,13 +1400,13 @@ events:
          /opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/include-fixed
         End of search list.
         Compiler executable checksum: 5226b9e482151da4bdbfa6cba7e25633
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_9244f.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_9244f.dir/'
-         /opt/homebrew/opt/arm-none-eabi-binutils/bin/arm-none-eabi-as -v -march=armv7e-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_9244f.dir/CMakeCCompilerABI.c.obj /var/folders/q5/_d6244qx4bg15n60dk32kgd40000gn/T//ccDMKUDW.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_7cf91.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_7cf91.dir/'
+         /opt/homebrew/opt/arm-none-eabi-binutils/bin/arm-none-eabi-as -v -march=armv7e-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_7cf91.dir/CMakeCCompilerABI.c.obj /var/folders/q5/_d6244qx4bg15n60dk32kgd40000gn/T//cc3f4dts.s
         GNU assembler version 2.46.1 (arm-none-eabi) using BFD version (GNU Binutils) 2.46.1
         COMPILER_PATH=/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/:/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/:/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/:/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/:/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/
         LIBRARY_PATH=/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/thumb/v7e-m/nofp/:/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_9244f.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_9244f.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /opt/homebrew/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -nostdlib -nostdlib -Wl,--gc-sections -v CMakeFiles/cmTC_9244f.dir/CMakeCCompilerABI.c.obj -o cmTC_9244f   && :
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_7cf91.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_7cf91.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /opt/homebrew/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -nostdlib -nostdlib -Wl,--gc-sections -v CMakeFiles/cmTC_7cf91.dir/CMakeCCompilerABI.c.obj -o cmTC_7cf91   && :
         Using built-in specs.
         COLLECT_GCC=/opt/homebrew/bin/arm-none-eabi-gcc
         COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/lto-wrapper
@@ -1417,10 +1417,10 @@ events:
         gcc version 16.1.0 (GCC) 
         COMPILER_PATH=/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/:/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/:/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/:/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/:/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/
         LIBRARY_PATH=/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/thumb/v7e-m/nofp/:/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-nostdlib' '-v' '-o' 'cmTC_9244f' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'cmTC_9244f.'
-         /opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/collect2 -plugin /opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/liblto_plugin.so -plugin-opt=/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/q5/_d6244qx4bg15n60dk32kgd40000gn/T//ccHtBkAY.res -X -o cmTC_9244f -L/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/thumb/v7e-m/nofp -L/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0 --gc-sections CMakeFiles/cmTC_9244f.dir/CMakeCCompilerABI.c.obj
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-nostdlib' '-v' '-o' 'cmTC_7cf91' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'cmTC_7cf91.'
+         /opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/collect2 -plugin /opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/liblto_plugin.so -plugin-opt=/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/q5/_d6244qx4bg15n60dk32kgd40000gn/T//ccOzSZl0.res -X -o cmTC_7cf91 -L/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/thumb/v7e-m/nofp -L/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0 --gc-sections CMakeFiles/cmTC_7cf91.dir/CMakeCCompilerABI.c.obj
         /opt/homebrew/opt/arm-none-eabi-binutils/bin/arm-none-eabi-ld: warning: cannot find entry symbol _start; defaulting to 00008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-nostdlib' '-v' '-o' 'cmTC_9244f' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'cmTC_9244f.'
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-nostdlib' '-v' '-o' 'cmTC_7cf91' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'cmTC_7cf91.'
         
       exitCode: 0
   -
@@ -1451,10 +1451,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/chris/git/RTOS/build/CMakeFiles/CMakeScratch/TryCompile-0Nu1Z6']
+        ignore line: [Change Dir: '/Users/chris/git/RTOS/build/CMakeFiles/CMakeScratch/TryCompile-0Nh7jZ']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_9244f]
-        ignore line: [[1/2] /opt/homebrew/bin/arm-none-eabi-gcc   -mcpu=cortex-m4 -mthumb -ffreestanding -nostdlib    -v -o CMakeFiles/cmTC_9244f.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_7cf91]
+        ignore line: [[1/2] /opt/homebrew/bin/arm-none-eabi-gcc   -mcpu=cortex-m4 -mthumb -ffreestanding -nostdlib    -v -o CMakeFiles/cmTC_7cf91.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/opt/homebrew/bin/arm-none-eabi-gcc]
         ignore line: [Target: arm-none-eabi]
@@ -1462,8 +1462,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_9244f.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_9244f.dir/']
-        ignore line: [ /opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/cc1 -quiet -v -imultilib thumb/v7e-m/nofp -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9244f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -mlibarch=armv7e-m -march=armv7e-m -version -ffreestanding -o /var/folders/q5/_d6244qx4bg15n60dk32kgd40000gn/T//ccDMKUDW.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_7cf91.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_7cf91.dir/']
+        ignore line: [ /opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/cc1 -quiet -v -imultilib thumb/v7e-m/nofp -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7cf91.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -mlibarch=armv7e-m -march=armv7e-m -version -ffreestanding -o /var/folders/q5/_d6244qx4bg15n60dk32kgd40000gn/T//cc3f4dts.s]
         ignore line: [GNU C23 (GCC) version 16.1.0 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version Apple LLVM 21.0.0 (clang-2100.0.123.102)  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1476,13 +1476,13 @@ events:
         ignore line: [ /opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 5226b9e482151da4bdbfa6cba7e25633]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_9244f.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_9244f.dir/']
-        ignore line: [ /opt/homebrew/opt/arm-none-eabi-binutils/bin/arm-none-eabi-as -v -march=armv7e-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_9244f.dir/CMakeCCompilerABI.c.obj /var/folders/q5/_d6244qx4bg15n60dk32kgd40000gn/T//ccDMKUDW.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_7cf91.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_7cf91.dir/']
+        ignore line: [ /opt/homebrew/opt/arm-none-eabi-binutils/bin/arm-none-eabi-as -v -march=armv7e-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_7cf91.dir/CMakeCCompilerABI.c.obj /var/folders/q5/_d6244qx4bg15n60dk32kgd40000gn/T//cc3f4dts.s]
         ignore line: [GNU assembler version 2.46.1 (arm-none-eabi) using BFD version (GNU Binutils) 2.46.1]
         ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/:/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/:/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/:/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/:/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/]
         ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/thumb/v7e-m/nofp/:/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_9244f.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_9244f.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /opt/homebrew/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -nostdlib -nostdlib -Wl --gc-sections -v CMakeFiles/cmTC_9244f.dir/CMakeCCompilerABI.c.obj -o cmTC_9244f   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_7cf91.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_7cf91.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /opt/homebrew/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -nostdlib -nostdlib -Wl --gc-sections -v CMakeFiles/cmTC_7cf91.dir/CMakeCCompilerABI.c.obj -o cmTC_7cf91   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/opt/homebrew/bin/arm-none-eabi-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/lto-wrapper]
@@ -1493,23 +1493,23 @@ events:
         ignore line: [gcc version 16.1.0 (GCC) ]
         ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/:/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/:/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/:/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/:/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/]
         ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/thumb/v7e-m/nofp/:/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-nostdlib' '-v' '-o' 'cmTC_9244f' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'cmTC_9244f.']
-        link line: [ /opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/collect2 -plugin /opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/liblto_plugin.so -plugin-opt=/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/q5/_d6244qx4bg15n60dk32kgd40000gn/T//ccHtBkAY.res -X -o cmTC_9244f -L/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/thumb/v7e-m/nofp -L/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0 --gc-sections CMakeFiles/cmTC_9244f.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-nostdlib' '-v' '-o' 'cmTC_7cf91' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'cmTC_7cf91.']
+        link line: [ /opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/collect2 -plugin /opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/liblto_plugin.so -plugin-opt=/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/q5/_d6244qx4bg15n60dk32kgd40000gn/T//ccOzSZl0.res -X -o cmTC_7cf91 -L/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/thumb/v7e-m/nofp -L/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0 --gc-sections CMakeFiles/cmTC_7cf91.dir/CMakeCCompilerABI.c.obj]
           arg [/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/libexec/gcc/arm-none-eabi/16.1.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/q5/_d6244qx4bg15n60dk32kgd40000gn/T//ccHtBkAY.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/q5/_d6244qx4bg15n60dk32kgd40000gn/T//ccOzSZl0.res] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_9244f] ==> ignore
+          arg [cmTC_7cf91] ==> ignore
           arg [-L/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/thumb/v7e-m/nofp] ==> dir [/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/thumb/v7e-m/nofp]
           arg [-L/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0] ==> dir [/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0]
           arg [--gc-sections] ==> ignore
-          arg [CMakeFiles/cmTC_9244f.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_7cf91.dir/CMakeCCompilerABI.c.obj] ==> ignore
         ignore line: [/opt/homebrew/opt/arm-none-eabi-binutils/bin/arm-none-eabi-ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00008000]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-nostdlib' '-v' '-o' 'cmTC_9244f' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'cmTC_9244f.']
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-nostdlib' '-v' '-o' 'cmTC_7cf91' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'cmTC_7cf91.']
         ignore line: []
         ignore line: []
         collapse library dir [/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/thumb/v7e-m/nofp] ==> [/opt/homebrew/Cellar/arm-none-eabi-gcc/16.1.0/lib/gcc/arm-none-eabi/16.1.0/thumb/v7e-m/nofp]

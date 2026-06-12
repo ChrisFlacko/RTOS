@@ -10,6 +10,7 @@ project(RTOS C ASM)
 # Sources
 add_executable(${PROJECT_NAME}
     startup.s
+    main.c
     os.c 
 )
 set_target_properties(RTOS PROPERTIES OUTPUT_NAME "RTOS.elf")

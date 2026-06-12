@@ -7,6 +7,12 @@
 },
 {
   "directory": "/Users/chris/git/RTOS/build",
+  "command": "/opt/homebrew/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -nostdlib -g -mcpu=cortex-m4 -mthumb -ffreestanding -nostdlib -O0 -g -o CMakeFiles/RTOS.dir/main.c.obj -c /Users/chris/git/RTOS/main.c",
+  "file": "/Users/chris/git/RTOS/main.c",
+  "output": "/Users/chris/git/RTOS/build/CMakeFiles/RTOS.dir/main.c.obj"
+},
+{
+  "directory": "/Users/chris/git/RTOS/build",
   "command": "/opt/homebrew/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -nostdlib -g -mcpu=cortex-m4 -mthumb -ffreestanding -nostdlib -O0 -g -o CMakeFiles/RTOS.dir/os.c.obj -c /Users/chris/git/RTOS/os.c",
   "file": "/Users/chris/git/RTOS/os.c",
   "output": "/Users/chris/git/RTOS/build/CMakeFiles/RTOS.dir/os.c.obj"
