@@ -58,6 +58,15 @@ build CMakeFiles/RTOS.dir/startup.s.obj: ASM_COMPILER__RTOS_unscanned_Debug /Use
   TARGET_COMPILE_PDB = CMakeFiles/RTOS.dir/
   TARGET_PDB = RTOS.elf.pdb
 
+build CMakeFiles/RTOS.dir/main.c.obj: C_COMPILER__RTOS_unscanned_Debug /Users/chris/git/RTOS/main.c || cmake_object_order_depends_target_RTOS
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/RTOS.dir/main.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mthumb -ffreestanding -nostdlib -g -mcpu=cortex-m4 -mthumb -ffreestanding -nostdlib -O0 -g
+  OBJECT_DIR = CMakeFiles/RTOS.dir
+  OBJECT_FILE_DIR = CMakeFiles/RTOS.dir
+  TARGET_COMPILE_PDB = CMakeFiles/RTOS.dir/
+  TARGET_PDB = RTOS.elf.pdb
+
 build CMakeFiles/RTOS.dir/os.c.obj: C_COMPILER__RTOS_unscanned_Debug /Users/chris/git/RTOS/os.c || cmake_object_order_depends_target_RTOS
   CONFIG = Debug
   DEP_FILE = CMakeFiles/RTOS.dir/os.c.obj.d
@@ -75,7 +84,7 @@ build CMakeFiles/RTOS.dir/os.c.obj: C_COMPILER__RTOS_unscanned_Debug /Users/chri
 #############################################
 # Link the executable RTOS.elf
 
-build RTOS.elf: C_EXECUTABLE_LINKER__RTOS_Debug CMakeFiles/RTOS.dir/startup.s.obj CMakeFiles/RTOS.dir/os.c.obj
+build RTOS.elf: C_EXECUTABLE_LINKER__RTOS_Debug CMakeFiles/RTOS.dir/startup.s.obj CMakeFiles/RTOS.dir/main.c.obj CMakeFiles/RTOS.dir/os.c.obj
   CONFIG = Debug
   FLAGS = -mcpu=cortex-m4 -mthumb -ffreestanding -nostdlib -g
   LINK_FLAGS = -nostdlib -Wl,--gc-sections -T/Users/chris/git/RTOS/linker.ld -nostdlib -Wl,--gc-sections
