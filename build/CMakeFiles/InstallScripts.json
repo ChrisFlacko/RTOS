@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/chris/git/RTOS/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

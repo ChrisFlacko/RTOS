@@ -1,0 +1,19 @@
+{
+    "name": "RTOS Development",
+
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+
+    "workspaceFolder": "/workspace",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-vscode.cmake-tools",
+                "ms-vscode.makefile-tools"
+            ]
+        }
+    }
+}

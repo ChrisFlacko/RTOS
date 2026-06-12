@@ -1,0 +1,20 @@
+# Build directories
+build/
+cmake-build-*/
+*.elf
+*.bin
+*.o
+*.d
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CMake
+CMakeUserPresets.json
